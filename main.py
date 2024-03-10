@@ -14,3 +14,5 @@ with col2:
     dedicated to unraveling insights from complex datasets through statistical methods and programming.
     """
     st.info(content)
+
+st.write("Below you can find some of the apps I have built in Python. Feel free to contact me!")
