@@ -30,7 +30,7 @@ for i in range(max_rows):
             st.header(row["title"])
             st.write(row["description"])
             st.image("images/" + row["image"])
-            st.write(f"[Source Code]({row['url']})")
+            st.write(f"[Link]({row['link']}) &nbsp;&nbsp;&nbsp; [Source Code]({row['url']})")
         else:
             st.empty()
 
@@ -40,6 +40,6 @@ for i in range(max_rows):
             st.header(row["title"])
             st.write(row["description"])
             st.image("images/" + row["image"])
-            st.write(f"[Source Code]({row['url']})")
+            st.write(f"[Link]({row['link']}) &nbsp;&nbsp;&nbsp; [Source Code]({row['url']})")
         else:
             st.empty()
