@@ -45,4 +45,3 @@ for i in range(max_rows):
             st.write(f"[Link]({row['link']}) &nbsp;&nbsp;&nbsp; [Source Code]({row['url']})")
         else:
             st.empty()
-
