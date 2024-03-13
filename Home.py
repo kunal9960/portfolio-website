@@ -20,7 +20,7 @@ with col1:
 with col2:
     st.title("Kunal Dalvi")
     content = """
-    Hello, I'm Kunal. A Python enthusiast with a keen interest in data analysis. 
+    Hi! I'm Kunal. A Python enthusiast with a keen interest in data analysis. 
     I'm driven by curiosity and love taking on new challenges. 
     I'm dedicated to unravel insights from complex datasets through statistical methods and programming.
     """
