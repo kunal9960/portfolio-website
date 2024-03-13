@@ -1,2 +1,2 @@
-# What is this project?
+# What is this repo?
 This a website to showcase my python projects.
