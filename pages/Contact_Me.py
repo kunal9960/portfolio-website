@@ -1,6 +1,18 @@
 import streamlit as st
 from send_email import send_email
 
+st.set_page_config(layout="wide")
+st.markdown(
+    """
+    <style>
+        section[data-testid="stSidebar"] {
+            width: 100px !important; # Set the width to your desired value
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.header("Contact Me")
 
 with st.form(key="email_form"):

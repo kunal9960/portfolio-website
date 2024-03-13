@@ -1,11 +1,21 @@
 import streamlit as st
 import pandas as pd
 
-# st.set_page_config(layout="wide")
+st.set_page_config(layout="wide")
+st.markdown(
+    """
+    <style>
+        section[data-testid="stSidebar"] {
+            width: 100px !important;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 col1, col2 = st.columns(2)
 with col1:
-    st.image("images/image.png")
+    st.image("images/image.gif")
 
 with col2:
     st.title("Kunal Dalvi")
@@ -30,7 +40,10 @@ for i in range(max_rows):
             st.header(row["title"])
             st.write(row["description"])
             st.image("images/" + row["image"])
-            st.write(f"[Link]({row['link']}) &nbsp;&nbsp;&nbsp; [Source Code]({row['url']})")
+            if row["title"] == "PDF Templates":
+                st.write(f"[Source Code]({row['url']})")
+            else:
+                st.write(f"[Link]({row['link']}) &nbsp;&nbsp;&nbsp; [Source Code]({row['url']})")
         else:
             st.empty()
 
