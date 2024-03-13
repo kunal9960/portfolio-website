@@ -25,6 +25,8 @@ with col2:
     I'm dedicated to unravel insights from complex datasets through statistical methods and programming.
     """
     st.info(content)
+    badge_md = "[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fportfolio-website-k.streamlit.app%2F&labelColor=%23697689&countColor=%23800080)](https://visitorbadge.io/status?path=https%3A%2F%2Fportfolio-website-k.streamlit.app%2F)"
+    st.markdown(badge_md, unsafe_allow_html=True)
 
 st.write("Below you can find some of the apps I have built in Python.")
 
