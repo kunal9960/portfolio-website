@@ -18,9 +18,9 @@ with col1:
     st.image("images/image.gif")
 
 with col2:
-    st.title("Kunal Dalvi")
+    st.title("Portfolio")
     content = """
-    Hi! I'm Kunal. A Python enthusiast with a keen interest in data analysis. 
+    Hi! I'm Kunal Dalvi, a Python enthusiast with a keen interest in data analysis. 
     I'm driven by curiosity and love taking on new challenges. 
     I'm dedicated to unravel insights from complex datasets through statistical methods and programming.
     """
