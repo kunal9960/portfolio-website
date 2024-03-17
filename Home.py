@@ -44,7 +44,7 @@ for i in range(max_rows):
             st.header(row["title"])
             st.write(row["description"])
             st.image("images/" + row["image"])
-            if row["title"] in ["PDF Templates", "Invoice Generator"]:
+            if row["title"] in ["PDF Templates", "Invoice Generator", "News Email Digest"]:
                 st.write(f"[Source Code]({row['url']})")
             else:
                 st.write(f"[Link]({row['link']}) &nbsp;&nbsp;&nbsp; [Source Code]({row['url']})")
